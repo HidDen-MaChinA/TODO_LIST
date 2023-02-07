@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to enter value when click enter 1`] = `
+<div
+  className="DONE"
+>
+  <input
+    onInput={[Function]}
+    onKeyDown={[Function]}
+    placeholder="todo Here"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`expect to print done task in Done component 1`] = `
+<div
+  className="todo"
+>
+  <div>
+    first task
+  </div>
+  <div>
+    second task
+  </div>
+</div>
+`;
+
+exports[`expect to print information from props 1`] = `
+[
+  <p>
+    <input
+      onInput={[Function]}
+      type="checkbox"
+    />
+    first task
+  </p>,
+  <p>
+    <input
+      onInput={[Function]}
+      type="checkbox"
+    />
+    second task
+  </p>,
+]
+`;
